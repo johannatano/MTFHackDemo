@@ -11,3 +11,5 @@ npm install
 node app.js
 
 ```
+
+You can now view the app in a browser at localhost:5000
