@@ -1,0 +1,516 @@
+body {
+  background-color: white;
+}
+
+.particle-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+div.particle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+@keyframes anim-1 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 89.14988px;
+    left: 186.80656px;
+  }
+}
+div.particle:nth-child(1) {
+  left: 10px;
+  animation-duration: 1s;
+  animation-name: anim-1;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-2 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -17.06202px;
+    left: 75.47169px;
+  }
+}
+div.particle:nth-child(2) {
+  left: 20px;
+  animation-duration: 1s;
+  animation-name: anim-2;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-3 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -192.05854px;
+    left: 10.86624px;
+  }
+}
+div.particle:nth-child(3) {
+  left: 30px;
+  animation-duration: 1s;
+  animation-name: anim-3;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-4 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -152.95261px;
+    left: -141.52207px;
+  }
+}
+div.particle:nth-child(4) {
+  left: 40px;
+  animation-duration: 1s;
+  animation-name: anim-4;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-5 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 30.35185px;
+    left: -196.57948px;
+  }
+}
+div.particle:nth-child(5) {
+  left: 50px;
+  animation-duration: 1s;
+  animation-name: anim-5;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-6 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 149.78656px;
+    left: -4.47065px;
+  }
+}
+div.particle:nth-child(6) {
+  left: 60px;
+  animation-duration: 1s;
+  animation-name: anim-6;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-7 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 79.15974px;
+    left: 109.71676px;
+  }
+}
+div.particle:nth-child(7) {
+  left: 70px;
+  animation-duration: 1s;
+  animation-name: anim-7;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-8 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -6.8385px;
+    left: 212.71202px;
+  }
+}
+div.particle:nth-child(8) {
+  left: 80px;
+  animation-duration: 1s;
+  animation-name: anim-8;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-9 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -197.71527px;
+    left: 29.67253px;
+  }
+}
+div.particle:nth-child(9) {
+  left: 90px;
+  animation-duration: 1s;
+  animation-name: anim-9;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-10 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -135.09052px;
+    left: -112.61237px;
+  }
+}
+div.particle:nth-child(10) {
+  left: 100px;
+  animation-duration: 1s;
+  animation-name: anim-10;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-11 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 0.42487px;
+    left: -50.9995px;
+  }
+}
+div.particle:nth-child(11) {
+  left: 110px;
+  animation-duration: 1s;
+  animation-name: anim-11;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-12 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 172.99006px;
+    left: -70.82763px;
+  }
+}
+div.particle:nth-child(12) {
+  left: 120px;
+  animation-duration: 1s;
+  animation-name: anim-12;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-13 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 76.22553px;
+    left: 60.08389px;
+  }
+}
+div.particle:nth-child(13) {
+  left: 130px;
+  animation-duration: 1s;
+  animation-name: anim-13;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-14 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 21.74122px;
+    left: 147.6005px;
+  }
+}
+div.particle:nth-child(14) {
+  left: 140px;
+  animation-duration: 1s;
+  animation-name: anim-14;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-15 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -165.61197px;
+    left: 105.34663px;
+  }
+}
+div.particle:nth-child(15) {
+  left: 150px;
+  animation-duration: 1s;
+  animation-name: anim-15;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-16 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -20.11085px;
+    left: -31.95727px;
+  }
+}
+div.particle:nth-child(16) {
+  left: 160px;
+  animation-duration: 1s;
+  animation-name: anim-16;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-17 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -56.13332px;
+    left: -86.52577px;
+  }
+}
+div.particle:nth-child(17) {
+  left: 170px;
+  animation-duration: 1s;
+  animation-name: anim-17;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-18 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 52.16502px;
+    left: -183.24089px;
+  }
+}
+div.particle:nth-child(18) {
+  left: 180px;
+  animation-duration: 1s;
+  animation-name: anim-18;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-19 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 104.80269px;
+    left: 36.12041px;
+  }
+}
+div.particle:nth-child(19) {
+  left: 190px;
+  animation-duration: 1s;
+  animation-name: anim-19;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-20 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 64.47697px;
+    left: 84.90391px;
+  }
+}
+div.particle:nth-child(20) {
+  left: 200px;
+  animation-duration: 1s;
+  animation-name: anim-20;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-21 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -14.24096px;
+    left: 200.79735px;
+  }
+}
+div.particle:nth-child(21) {
+  left: 210px;
+  animation-duration: 1s;
+  animation-name: anim-21;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-22 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -242.99048px;
+    left: -2.0181px;
+  }
+}
+div.particle:nth-child(22) {
+  left: 220px;
+  animation-duration: 1s;
+  animation-name: anim-22;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-23 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: -73.53096px;
+    left: -144.70369px;
+  }
+}
+div.particle:nth-child(23) {
+  left: 230px;
+  animation-duration: 1s;
+  animation-name: anim-23;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-24 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 65.74775px;
+    left: -11.77252px;
+  }
+}
+div.particle:nth-child(24) {
+  left: 240px;
+  animation-duration: 1s;
+  animation-name: anim-24;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
+
+@keyframes anim-25 {
+  0% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 127.86516px;
+    left: -22.4998px;
+  }
+}
+div.particle:nth-child(25) {
+  left: 250px;
+  animation-duration: 1s;
+  animation-name: anim-25;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: black;
+}
